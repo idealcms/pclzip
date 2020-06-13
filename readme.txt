@@ -1,11 +1,11 @@
 // --------------------------------------------------------------------------------
-// PclZip 2.8.2 - readme.txt
+// PclZip 2.8.3 - readme.txt
 // --------------------------------------------------------------------------------
 // License GNU/LGPL - August 2009
 // Vincent Blavet - vincent@phpconcept.net
 // http://www.phpconcept.net
 // --------------------------------------------------------------------------------
-// $Id: readme.txt,v 1.60 2009/09/30 20:35:21 vblavet Exp $
+// $Id: readme.txt,v 1.70 2020/06/13 22:55:21 vblavet Exp $
 // --------------------------------------------------------------------------------
 
 
@@ -31,6 +31,10 @@
 
 2 - What's new
 ==============
+
+  Version 2.8.3 :
+    - Fix compatibility with PHP v7.1
+    - Update composer.json to indicate that pclzip/pclzip is replaced
 
   Version 2.8.2 :
     - PCLZIP_CB_PRE_EXTRACT and PCLZIP_CB_POST_EXTRACT are now supported with
